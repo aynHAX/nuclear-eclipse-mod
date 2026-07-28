@@ -64,7 +64,7 @@ public final class DetonationHelper {
                     if (state.isAir() || state.getDestroySpeed(level, pos) < 0.0F) continue;
                     if (state.is(net.minecraft.tags.BlockTags.WITHER_IMMUNE)) continue;
                     if (drop) {
-                        BlockState.dropResources(state, level, pos, level.getBlockEntity(pos));
+                        net.minecraft.world.level.block.Block.dropResources(state, level, pos, level.getBlockEntity(pos));
                     }
                     level.setBlock(pos, Blocks.AIR.defaultBlockState(), 3);
                 }

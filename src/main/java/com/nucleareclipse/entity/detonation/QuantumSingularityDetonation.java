@@ -1,5 +1,7 @@
 package com.nucleareclipse.entity.detonation;
 
+import com.nucleareclipse.entity.BombDetonation;
+
 import com.nucleareclipse.registry.NEParticles;
 import com.nucleareclipse.registry.NESounds;
 import net.minecraft.core.BlockPos;
@@ -39,7 +41,7 @@ public final class QuantumSingularityDetonation implements BombDetonation {
         DetonationHelper.boom(level, origin, NESounds.QUANTUM_CHARGE.get(), 10.0F, 0.6F);
 
         // ── Particle column — event horizon ──
-        DetonationHelper.sendColumn(server, NEParticles.QUANTUM_SPARK.get().get(),
+        DetonationHelper.sendColumn(server, NEParticles.QUANTUM_SPARK.get(),
                 origin, 80, 20, 6.0);
 
         // ── Phase 1: Inward pull — strongest at rim, fades at edges ──

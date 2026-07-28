@@ -1,5 +1,7 @@
 package com.nucleareclipse.entity.detonation;
 
+import com.nucleareclipse.entity.BombDetonation;
+
 import com.nucleareclipse.registry.NEParticles;
 import com.nucleareclipse.registry.NESounds;
 import net.minecraft.core.BlockPos;
@@ -45,7 +47,7 @@ public final class VoidEchoDetonation implements BombDetonation {
                 double py = centre.y + yOff;
                 double pz = centre.z + Math.sin(angle) * r;
                 // Velocity points inward — the ring implodes.
-                server.sendParticles(NEParticles.VOID_ECHO.get().get(),
+                server.sendParticles(NEParticles.VOID_ECHO.get(),
                         px, py, pz, 1,
                         -Math.cos(angle) * 0.3, 0.0, -Math.sin(angle) * 0.3, 0.01);
             }

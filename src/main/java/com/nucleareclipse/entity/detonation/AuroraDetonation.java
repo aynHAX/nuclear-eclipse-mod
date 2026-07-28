@@ -1,5 +1,7 @@
 package com.nucleareclipse.entity.detonation;
 
+import com.nucleareclipse.entity.BombDetonation;
+
 import com.nucleareclipse.registry.NEParticles;
 import com.nucleareclipse.registry.NESounds;
 import net.minecraft.core.BlockPos;
@@ -35,7 +37,7 @@ public final class AuroraDetonation implements BombDetonation {
             double px = origin.getX() + 0.5 + Math.cos(angle) * r;
             double py = origin.getY() + 2.0 + server.random.nextDouble() * VEIL_HEIGHT;
             double pz = origin.getZ() + 0.5 + Math.sin(angle) * r;
-            server.sendParticles(NEParticles.AURORA_RIBBON.get().get(),
+            server.sendParticles(NEParticles.AURORA_RIBBON.get(),
                     px, py, pz, 1,
                     -Math.sin(angle) * 0.04, 0.08, Math.cos(angle) * 0.04, 0.01);
         }

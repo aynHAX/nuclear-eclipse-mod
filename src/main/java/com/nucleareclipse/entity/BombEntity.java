@@ -51,9 +51,14 @@ public class BombEntity extends Projectile {
 
     public void shootFromRotation(Player thrower, float xRot, float yRot,
                                   float roll, float power, float inaccuracy) {
-        // Pull the thrower's eye position up so the spawn sits near the player.
+        // Spawn at the thrower's eye position.
         this.setPos(thrower.getEyePosition());
-        this.shootFromRotation(xRot, yRot, roll, power, inaccuracy);
+        // Compute a direction vector from the look angles (snowball-style arc).
+        float rad = 0.017453292F;
+        double dirX = -net.minecraft.util.Mth.sin(yRot * rad) * net.minecraft.util.Mth.cos(xRot * rad);
+        double dirY = -net.minecraft.util.Mth.sin(xRot * rad);
+        double dirZ =  net.minecraft.util.Mth.cos(yRot * rad) * net.minecraft.util.Mth.cos(xRot * rad);
+        this.shoot(dirX, dirY, dirZ, power, inaccuracy);
     }
 
     /** Mirror of Projectile.shootFromRotation that doesn't need a thrower. */
@@ -142,7 +147,4 @@ public class BombEntity extends Projectile {
 
     @Override
     public boolean isPickable() { return false; }
-
-    @Override
-    public float getEyeHeight(net.minecraft.world.entity.Pose pose) { return 0.0F; }
 }

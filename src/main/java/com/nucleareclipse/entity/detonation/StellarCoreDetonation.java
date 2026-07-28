@@ -1,5 +1,7 @@
 package com.nucleareclipse.entity.detonation;
 
+import com.nucleareclipse.entity.BombDetonation;
+
 import com.nucleareclipse.registry.NEParticles;
 import com.nucleareclipse.registry.NESounds;
 import net.minecraft.core.BlockPos;
@@ -34,7 +36,7 @@ public final class StellarCoreDetonation implements BombDetonation {
             double px = origin.getX() + 0.5 + (server.random.nextDouble() - 0.5) * 8;
             double py = origin.getY() + 0.5 + server.random.nextDouble() * COLUMN_HEIGHT;
             double pz = origin.getZ() + 0.5 + (server.random.nextDouble() - 0.5) * 8;
-            server.sendParticles(NEParticles.STELLAR_FLARE.get().get(),
+            server.sendParticles(NEParticles.STELLAR_FLARE.get(),
                     px, py, pz, 1,
                     (server.random.nextDouble() - 0.5) * 0.15,
                     0.3 + server.random.nextDouble() * 0.2,

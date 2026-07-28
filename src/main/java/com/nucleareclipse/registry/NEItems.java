@@ -1,6 +1,7 @@
 package com.nucleareclipse.registry;
 
 import com.nucleareclipse.NuclearEclipse;
+import com.nucleareclipse.item.BombItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;

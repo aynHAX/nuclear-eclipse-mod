@@ -1,5 +1,7 @@
 package com.nucleareclipse.entity.detonation;
 
+import com.nucleareclipse.entity.BombDetonation;
+
 import com.nucleareclipse.registry.NEParticles;
 import com.nucleareclipse.registry.NESounds;
 import net.minecraft.core.BlockPos;
@@ -38,7 +40,7 @@ public final class GlowSporeDetonation implements BombDetonation {
             double dx = server.random.nextGaussian() * CLOUD_RADIUS;
             double dy = server.random.nextDouble() * CLOUD_RADIUS;
             double dz = server.random.nextGaussian() * CLOUD_RADIUS;
-            server.sendParticles(NEParticles.GLOW_SPORE.get().get(),
+            server.sendParticles(NEParticles.GLOW_SPORE.get(),
                     origin.getX() + 0.5 + dx,
                     origin.getY() + 0.5 + dy,
                     origin.getZ() + 0.5 + dz, 1,

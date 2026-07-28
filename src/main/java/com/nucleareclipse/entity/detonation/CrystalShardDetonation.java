@@ -1,5 +1,7 @@
 package com.nucleareclipse.entity.detonation;
 
+import com.nucleareclipse.entity.BombDetonation;
+
 import com.nucleareclipse.registry.NEBlocks;
 import com.nucleareclipse.registry.NEParticles;
 import com.nucleareclipse.registry.NESounds;
@@ -37,7 +39,7 @@ public final class CrystalShardDetonation implements BombDetonation {
             double dy = Math.cos(phi);
             double dz = Math.sin(phi) * Math.sin(theta);
             double speed = 0.6 + server.random.nextDouble() * 0.8;
-            server.sendParticles(NEParticles.CRYSTAL_SHARD.get().get(),
+            server.sendParticles(NEParticles.CRYSTAL_SHARD.get(),
                     origin.getX() + 0.5, origin.getY() + 0.5, origin.getZ() + 0.5, 1,
                     dx * speed, dy * speed, dz * speed, 0.05);
         }

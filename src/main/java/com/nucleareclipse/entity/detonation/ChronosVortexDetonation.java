@@ -1,5 +1,7 @@
 package com.nucleareclipse.entity.detonation;
 
+import com.nucleareclipse.entity.BombDetonation;
+
 import com.nucleareclipse.registry.NEParticles;
 import com.nucleareclipse.registry.NESounds;
 import net.minecraft.core.BlockPos;
@@ -44,7 +46,7 @@ public final class ChronosVortexDetonation implements BombDetonation {
                 double px = centre.x + Math.cos(angle) * r;
                 double py = centre.y + yOff;
                 double pz = centre.z + Math.sin(angle) * r;
-                server.sendParticles(NEParticles.CHRONOS_DUST.get().get(),
+                server.sendParticles(NEParticles.CHRONOS_DUST.get(),
                         px, py, pz, 1,
                         -Math.sin(angle) * 0.1, 0.0, Math.cos(angle) * 0.1, 0.001);
             }
