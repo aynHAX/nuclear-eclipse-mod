@@ -1,0 +1,51 @@
+{
+  "quantum_charge": {
+    "category": "block",
+    "sounds": [
+      { "name": "minecraft:entity.generic.explode", "volume": 1.0, "pitch": 0.6 },
+      { "name": "minecraft:block.beacon.power_select", "volume": 0.8, "pitch": 0.5 }
+    ]
+  },
+  "chronos_warp": {
+    "category": "block",
+    "sounds": [
+      { "name": "minecraft:block.beacon.activate", "volume": 1.0, "pitch": 0.4 },
+      { "name": "minecraft:entity.enderman.scream", "volume": 0.5, "pitch": 0.3 }
+    ]
+  },
+  "crystal_shatter": {
+    "category": "block",
+    "sounds": [
+      { "name": "minecraft:block.amethyst_block.chime", "volume": 1.5, "pitch": 1.2 },
+      { "name": "minecraft:block.glass.break", "volume": 1.0, "pitch": 0.8 }
+    ]
+  },
+  "void_echo": {
+    "category": "block",
+    "sounds": [
+      { "name": "minecraft:entity.warden.sonic_boom", "volume": 1.2, "pitch": 0.3 },
+      { "name": "minecraft:block.conduit.activate", "volume": 0.7, "pitch": 0.4 }
+    ]
+  },
+  "stellar_nova": {
+    "category": "block",
+    "sounds": [
+      { "name": "minecraft:entity.generic.explode", "volume": 1.5, "pitch": 0.8 },
+      { "name": "minecraft:entity.blaze.burn", "volume": 1.0, "pitch": 0.6 }
+    ]
+  },
+  "glow_spore": {
+    "category": "block",
+    "sounds": [
+      { "name": "minecraft:block.spore_blossom.spore", "volume": 1.0, "pitch": 1.6 },
+      { "name": "minecraft:block.composter.fill", "volume": 0.6, "pitch": 1.0 }
+    ]
+  },
+  "aurora_hum": {
+    "category": "ambient",
+    "sounds": [
+      { "name": "minecraft:block.beacon.ambient", "volume": 1.0, "pitch": 1.0 },
+      { "name": "minecraft:ambient.cave", "volume": 0.8, "pitch": 1.2 }
+    ]
+  }
+}

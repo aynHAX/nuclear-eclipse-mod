@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "CNC",
+    "GCG"
+  ],
+  "key": {
+    "G": { "item": "minecraft.gold_block" },
+    "C": { "item": "minecraft.clock" },
+    "N": { "item": "minecraft.nether_star" }
+  },
+  "result": { "id": "nucleareclipse:chronos_bomb", "count": 1 }
+}

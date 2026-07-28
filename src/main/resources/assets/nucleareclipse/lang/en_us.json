@@ -1,0 +1,34 @@
+{
+  "itemGroup.nucleareclipse": "Nuclear Eclipse",
+  "itemGroup.nucleareclipse.desc": "Legendary nuclear bombs",
+
+  "tooltip.nucleareclipse.throw": "Right-click to throw. Detonates on impact.",
+
+  "item.nucleareclipse.quantum_bomb": "Quantum Singularity Bomb",
+  "item.nucleareclipse.quantum_bomb.desc": "Collapses space into a violet event-horizon",
+  "item.nucleareclipse.chronos_bomb": "Chronos Vortex Bomb",
+  "item.nucleareclipse.chronos_bomb.desc": "Locks every living thing in temporal stasis",
+  "item.nucleareclipse.crystal_bomb": "Crystal Shard Bomb",
+  "item.nucleareclipse.crystal_bomb.desc": "Transmutes the land into a turquoise crystal garden",
+  "item.nucleareclipse.void_bomb": "Void Echo Bomb",
+  "item.nucleareclipse.void_bomb.desc": "A silent implosion that devours light itself",
+  "item.nucleareclipse.stellar_bomb": "Stellar Core Bomb",
+  "item.nucleareclipse.stellar_bomb.desc": "A miniature supernova. Incinerates everything",
+  "item.nucleareclipse.glow_spore_bomb": "Glow Spore Bomb",
+  "item.nucleareclipse.glow_spore_bomb.desc": "Blooms a luminous, treacherous spore cloud",
+  "item.nucleareclipse.aurora_bomb": "Aurora Bomb",
+  "item.nucleareclipse.aurora_bomb.desc": "Unfurls a shimmering curtain of polar light",
+
+  "block.nucleareclipse.scorch_glass": "Scorch Glass",
+  "block.nucleareclipse.crystal_deposit": "Crystal Deposit",
+
+  "death.attack.nucleareclipse.quantum": "%1$s was unmade by a quantum singularity",
+  "death.attack.nucleareclipse.chronos": "%1$s was frozen outside of time",
+  "death.attack.nucleareclipse.crystal": "%1$s was pierced by crystal shards",
+  "death.attack.nucleareclipse.void": "%1$s was swallowed by the void",
+  "death.attack.nucleareclipse.stellar": "%1$s was incinerated by a stellar core",
+  "death.attack.nucleareclipse.glow": "%1$s was consumed by glowing spores",
+  "death.attack.nucleareclipse.aurora": "%1$s drifted away into the aurora",
+
+  "entity.nucleareclipse.bomb": "Nuclear Bomb"
+}

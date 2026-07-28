@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ADA",
+    "AAA"
+  ],
+  "key": {
+    "A": { "item": "minecraft.amethyst_block" },
+    "D": { "item": "minecraft.diamond" }
+  },
+  "result": { "id": "nucleareclipse:crystal_bomb", "count": 1 }
+}

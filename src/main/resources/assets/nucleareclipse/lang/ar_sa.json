@@ -1,0 +1,34 @@
+{
+  "itemGroup.nucleareclipse": "الكسوف النووي",
+  "itemGroup.nucleareclipse.desc": "قنابل نووية أسطورية",
+
+  "tooltip.nucleareclipse.throw": "انقر بزر الفأرة الأيمن للرمي. تنفجر عند الاصطدام.",
+
+  "item.nucleareclipse.quantum_bomb": "قنبلة التفرد الكمي",
+  "item.nucleareclipse.quantum_bomb.desc": "تطوي الفضاء إلى أفق حدث بنفسجي",
+  "item.nucleareclipse.chronos_bomb": "قنبلة دوامة الزمن",
+  "item.nucleareclipse.chronos_bomb.desc": "تجمّد كل كائن حي في سكون زمني",
+  "item.nucleareclipse.crystal_bomb": "قنبلة منشور البلورة",
+  "item.nucleareclipse.crystal_bomb.desc": "تحوّل الأرض إلى حديقة بلورية تركوازية",
+  "item.nucleareclipse.void_bomb": "قنبلة صدى الفراغ",
+  "item.nucleareclipse.void_bomb.desc": "انفجار صامت يبتلع الضوء نفسه",
+  "item.nucleareclipse.stellar_bomb": "قنبلة قلب النجم",
+  "item.nucleareclipse.stellar_bomb.desc": "سوبرنوفا مصغّرة. تحرق كل شيء",
+  "item.nucleareclipse.glow_spore_bomb": "قنبلة الأبواغ المتوهجة",
+  "item.nucleareclipse.glow_spore_bomb.desc": "تطلق سحابة أبواغ مضيئة خطرة",
+  "item.nucleareclipse.aurora_bomb": "قنبلة الشفق القطبي",
+  "item.nucleareclipse.aurora_bomb.desc": "تنشر ستارة من الضوء القطبي المتلألئ",
+
+  "block.nucleareclipse.scorch_glass": "زجاج الحرق",
+  "block.nucleareclipse.crystal_deposit": "رواسب البلورة",
+
+  "death.attack.nucleareclipse.quantum": "تم محو %1$s بتفرد كمي",
+  "death.attack.nucleareclipse.chronos": "تجمّد %1$s خارج الزمن",
+  "death.attack.nucleareclipse.crystal": "اخترقت بلورات %1$s",
+  "death.attack.nucleareclipse.void": "ابتلع الفراغ %1$s",
+  "death.attack.nucleareclipse.stellar": "أُحرِق %1$s بقلب نجمي",
+  "death.attack.nucleareclipse.glow": "التهمت الأبواغ المتوهجة %1$s",
+  "death.attack.nucleareclipse.aurora": "انجرف %1$s في الشفق القطبي",
+
+  "entity.nucleareclipse.bomb": "قنبلة نووية"
+}

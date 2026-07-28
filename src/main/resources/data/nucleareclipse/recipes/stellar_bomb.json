@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MBM",
+    "BNB",
+    "MBM"
+  ],
+  "key": {
+    "M": { "item": "minecraft.magma_block" },
+    "B": { "item": "minecraft.blaze_rod" },
+    "N": { "item": "minecraft.nether_star" }
+  },
+  "result": { "id": "nucleareclipse:stellar_bomb", "count": 1 }
+}

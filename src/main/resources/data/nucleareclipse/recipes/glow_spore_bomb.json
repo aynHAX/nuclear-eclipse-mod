@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GSG",
+    "SPS",
+    "GSG"
+  ],
+  "key": {
+    "G": { "item": "minecraft.glowstone_dust" },
+    "S": { "item": "minecraft.slime_ball" },
+    "P": { "item": "minecraft.spore_blossom" }
+  },
+  "result": { "id": "nucleareclipse:glow_spore_bomb", "count": 1 }
+}

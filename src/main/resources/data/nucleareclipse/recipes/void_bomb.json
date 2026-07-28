@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BSB",
+    "SOS",
+    "BSB"
+  ],
+  "key": {
+    "B": { "item": "minecraft.blackstone" },
+    "S": { "item": "minecraft.wither_skeleton_skull" },
+    "O": { "item": "minecraft.obsidian" }
+  },
+  "result": { "id": "nucleareclipse:void_bomb", "count": 1 }
+}
