@@ -12,25 +12,25 @@ description='''
 ${mod_description}
 
 Seven legendary, never-before-seen nuclear bombs:
-- Quantum Singularity Bomb (قنبلة التفرد الكمي)
-- Chronos Vortex Bomb (قنبلة دوامة الزمن)
-- Crystal Shard Bomb (قنبلة منشور البلورة)
-- Void Echo Bomb (قنبلة صدى الفراغ)
-- Stellar Core Bomb (قنبلة قلب النجم)
-- Glow Spore Bomb (قنبلة الأبواغ المتوهجة)
-- Aurora Bomb (قنبلة الشفق القطبي)
+- Quantum Singularity Bomb
+- Chronos Vortex Bomb
+- Crystal Shard Bomb
+- Void Echo Bomb
+- Stellar Core Bomb
+- Glow Spore Bomb
+- Aurora Bomb
 '''
 
 [[dependencies.${mod_id}]]
     modId="forge"
-    type="required"
+    mandatory=true
     versionRange="${forge_version_range}"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="minecraft"
-    type="required"
+    mandatory=true
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
